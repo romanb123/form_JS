@@ -59,24 +59,32 @@
 
     <div class="row down" id="therow">
       <div class="col-lg-4 first_col">
+
         <!-- checkbox -->
+
           <div class="form-group">
               <input type="checkbox" id="showage" onChange="shownum()"> 
               <input type="checkbox"id="showcolor"onChange="colors()">    
               </div>
+
               <!-- formage -->
+
         <div class="form-group"style="display:none" id="age">
-          <input type="number">  
-        <button type="submpit" class="btn btn-primary btn-lg btn-block" >press to insert to gallery</button>
+          <input type="number" id="agevalue">  
+        <button type="submpit" class="btn btn-primary btn-lg btn-block" onclick="setage()" >press to insert to gallery</button>
           </div>
+
           <!-- formcolor -->
+
           <div class="form-group"style="display:none"  id="color">
-          <input type="color"> 
-        <button type="submpit" class="btn btn-primary btn-lg btn-block">press to insert to gallery</button>
+          <input type="color" id="colorvalue"> 
+        <button type="submpit" class="btn btn-primary btn-lg btn-block" onclick="setbackground()" >press to insert to gallery</button>
        </div>
       </div>
-      
-      <div class="col-lg-8 first_col">
+
+      <!-- screen -->
+
+      <div class="col-lg-8 first_col"id="screen">
        
       </div>
       

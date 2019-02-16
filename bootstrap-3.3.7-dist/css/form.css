@@ -6,3 +6,7 @@ body{
     border:1px solid black;  
     height:400px; 
 }
+span{
+    background-color:red;
+    font-size: 250px;
+}
