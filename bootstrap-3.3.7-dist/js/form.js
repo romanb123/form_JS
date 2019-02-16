@@ -7,3 +7,12 @@ function shownum(){
     document.getElementById("age").style.display="none";    
  }
 }
+function colors(){
+    var y=document.getElementById("showcolor");
+    if(y.checked==true){
+    document.getElementById("color").style.display="block";
+ }
+ else{
+    document.getElementById("color").style.display="none";    
+ }
+}
